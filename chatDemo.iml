@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="Flex" version="4">
+  <component name="FlexBuildConfigurationManager" active="chatDemo">
+    <configurations>
+      <configuration name="chatDemo" target-platform="Mobile" pure-as="true" main-class="chatApp" output-file="chatDemo.swf" output-folder="$MODULE_DIR$/out/production/chatDemo">
+        <dependencies>
+          <entries>
+            <entry library-id="539f5d34-71c2-44ff-9b78-514970a8f2aa">
+              <dependency linkage="Merged" />
+            </entry>
+          </entries>
+          <sdk name="air" />
+        </dependencies>
+        <compiler-options />
+        <packaging-air-desktop />
+        <packaging-android enabled="true" package-file-name="chatDemo" />
+        <packaging-ios enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/ios-template.xml" package-file-name="chatDemo" />
+      </configuration>
+    </configurations>
+    <compiler-options />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/picture" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/workSpace/libss/feathers">
+      <sourceFolder url="file://$USER_HOME$/workSpace/libss/feathers/source" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="air" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="539f5d34-71c2-44ff-9b78-514970a8f2aa" />
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/lib" recursive="false" />
+      </library>
+    </orderEntry>
+  </component>
+</module>
